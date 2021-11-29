@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.info__image {
+.info__img {
   width: 100%;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .input,
-.button {
+.btn {
   outline: none;
 }
 
@@ -68,7 +68,7 @@
   box-sizing: border-box;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -78,7 +78,7 @@
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
@@ -151,13 +151,13 @@
   width: 226px;
 }
 
-.button__delete-image {
+.btn__del-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button__delete-image:hover {
+.btn__del-img:hover {
   transform: rotateZ(0);
 }
 
