@@ -33,7 +33,7 @@
 
 }
 
-.todo {
+.todo-app {
   display: block;
   width: 500px;
   margin: 16px auto 0;
@@ -93,7 +93,7 @@
   text-transform: uppercase;
 }
 
-.todo-heading {
+.incomplete-section {
   margin-top: -5px;
 }
 
