@@ -49,6 +49,7 @@ var createNewTaskElement = function (taskString) {
   deleteButton.className = "btn btn_del middle";
   deleteButtonImg.src = './remove.svg';
   deleteButtonImg.className = 'btn__del-img image';
+  deleteButtonImg.alt = '';
   deleteButton.appendChild(deleteButtonImg);
 
 
@@ -163,7 +164,6 @@ addButton.addEventListener("click", ajaxRequest);
 var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("bind list item events");
   //select ListItems children
-  console.log(111, taskListItem);
   var checkBox = taskListItem.querySelector(".input_check");
   var editButton = taskListItem.querySelector(".btn_edit");
   var deleteButton = taskListItem.querySelector(".btn_del");
