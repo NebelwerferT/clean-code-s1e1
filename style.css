@@ -45,7 +45,10 @@
   flex-grow: 1;
 }
 
-.add-task-wrp {
+.add-task-wrp,
+.tasks__item {
+  overflow: hidden;
+  padding: 20px 0;
   display: flex;
 }
 
@@ -94,7 +97,7 @@
 }
 
 .incomplete-section {
-  margin-top: -5px;
+  margin-top: -4px;
 }
 
 .input_text {
@@ -115,19 +118,13 @@
 }
 
 /* New Task */
-
 .new-task {
   width: 318px;
 }
 
 /* Task list */
-.add-task-wrp,
 .tasks__item {
-  overflow: hidden;
-  padding: 20px 0;
   border-bottom: 1px solid #eee;
-
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
